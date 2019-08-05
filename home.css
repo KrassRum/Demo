@@ -1,0 +1,26 @@
+/* MAIN SECTION */
+.container-main {
+	padding: 100px 150px;
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img.jpeg');
+}
+
+.container-main h1 {
+	font-size: 4rem;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.container-main h4 {
+	font-size: 1.5rem;
+	color: white;
+}
+/* end */
+
+/* SECONDARY SECTION */
+.container-secondary {
+	margin: 0 auto;
+	padding: 60px 0;
+	max-width: 600px;
+	font-size: 1.1rem;
+}

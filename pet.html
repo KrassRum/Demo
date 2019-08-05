@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo - pet</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="pet.css">
+	</head>
+	<body>
+
+		<header>
+	        <div class="header-container">
+	            <a href="Demo.html" class="logo"></a>
+	            <nav>
+	                <ul class="nav nav-left">
+	                    <li><a href="Demo.html">Home</a></li>
+	                    <li><a href="thrones.html">Game Of Thrones</a></li>
+	                    <li><a href="calculator.html">Calculator</a></li>
+	                    <li><a href="#">Pet Competition</a></li>
+	                    <li><a href="bouncing.html">Bouncing Ball</a></li>
+	                </ul>
+	                <ul class="nav nav-right">
+	                    <li><a href="#" id="loginBtn">Login</a></li>
+	                    <li id="logOutBtn" style="display: none;"><a href="#">Log out</a></li>
+	                </ul>
+	            </nav>
+	        </div>
+	    </header>
+		
+		<div class="container-main">
+
+			<form action="" method="post">
+				<h4>Pet competition form</h4>
+
+				<div>
+					<label for="name">Name of animal:</label>
+					<input type="text" name="name" id="name">
+				</div>
+				<br>
+
+				<div>
+					<span>Type of animal:</span>
+					<input type="radio" name="type" id="dog" value="dog">
+					<label for="dog">Dog</label>
+					<input type="radio" name="type" id="cat" value="cat">
+					<label for="cat">Cat</label>
+				</div>
+				<br>
+
+				<div>
+					<label for="age">Age of animal:</label>
+					<select name="age" id="age">
+						<option value="1">younger than 5 years</option>
+						<option value="2">between 5 and 10 years</option>
+						<option value="3">older than 10 years</option>
+					</select>
+				</div>
+				<br>
+				
+				<div>
+					<textarea cols="40" rows="8" name="text" id="text" placeholder="Enter a few words describing your pet"></textarea>
+				</div>
+				<br>
+				
+				<div>
+					<input type="checkbox" name="checkbox">
+					<label for="checkbox">I agree with the terms of the competition.</label>
+				</div>
+				<br>
+
+				<div>
+					<input type="submit" value="Apply">
+					<input type="reset" value="Clear">
+				</div>
+			</form>
+
+			<table border="1">
+				<caption>A nested table</caption>
+				<thead>
+					<tr>
+						<th>Invoice #123456789</th>
+						<th>14 January 2025<br></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<table border="1">
+								<tbody>
+									<tr>
+										<td><strong>Pay to:</strong></td>
+										<td>Foobar Billing Co.<br>123 Main St.<br>Cityville, NA 12345</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+						<td>
+							<table border="1">
+								<tbody>
+									<tr>
+										<td><strong>Customer:</strong></td>
+										<td>John Smith<br>321 Willow Way<br>Southeast Northwestershire, MA 54321</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<br><br>
+
+			<table border="1">
+				<caption>A complex table</caption>
+				<thead>
+					<tr>
+						<th>Name / Description</th>
+						<th>Qty.</th>
+						<th>@</th>
+						<th>Cost</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Paperclips</td>
+						<td>1000</td>
+						<td>0.01</td>
+						<td>10.00</td>
+					</tr>
+					<tr>
+						<td>Staples (box)</td>
+						<td>100</td>
+						<td>1.00</td>
+						<td>100.00</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th colspan="3">Subtotal</th>
+						<td> 110.00</td>
+					</tr>
+					<tr>
+						<th colspan="2">Tax</th>
+						<td>8%</td>
+						<td>8.80</td>
+					</tr>
+					<tr>
+						<th colspan="3">Grand Total</th>
+						<td>$ 118.80</td>
+					</tr>
+				</tfoot>
+			</table>
+
+			<br><br>
+			
+			<span style="color:red">MEGA BONUS HOMEWORK:</span>
+			<table border="1">
+				<caption>A colorful table</caption>
+				<thead>
+					<tr>
+						<th bgcolor="lightgrey">Name / Description</th>
+						<th bgcolor="lightgrey">Qty.</th>
+						<th bgcolor="lightgrey">@</th>
+						<th bgcolor="lightgrey">Cost</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Paperclips</td>
+						<td>1000</td>
+						<td>0.01</td>
+						<td>10.00</td>
+					</tr>
+					<tr>
+						<td>Staples (box)</td>
+						<td>100</td>
+						<td>1.00</td>
+						<td>100.00</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th bgcolor="beige" colspan="3">Subtotal</th>
+						<td bgcolor="beige"> 110.00</td>
+					</tr>
+					<tr>
+						<th bgcolor="lightgreen" colspan="2">Tax</th>
+						<td bgcolor="lightcoral">8%</td>
+						<td bgcolor="lightgreen">8.80</td>
+					</tr>
+					<tr>
+						<th bgcolor="lightblue" colspan="3">Grand Total</th>
+						<td bgcolor="lightblue">$ 118.80</td>
+					</tr>
+				</tfoot>
+			</table>
+
+		</div>
+
+		<footer>
+	        <ul class="nav nav-left">
+	            <li><a href="Demo.html">Home</a></li>
+	            <li><a href="thrones.html">Game Of Thrones</a></li>
+	            <li><a href="calculator.html">Calculator</a></li>
+	            <li><a href="#">Pet Competition</a></li>
+	            <li><a href="bouncing.html">Bouncing Ball</a></li>
+	        </ul>
+	        <ul class="nav nav-right">
+	            <li><a href="#">FB</a></li>
+	            <li><a href="#">IG</a></li>
+	            <li><a href="#">TW</a></li>
+	        </ul>
+	    </footer>
+
+	    <div class="login-popup"></div>
+
+	    <script type="text/javascript" src="script.js"></script>
+
+	</body>
+</html>

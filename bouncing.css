@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.container-main {
+	display: flex;
+	justify-content: center;
+}
+
+.ball {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: red;
+
+	animation: bounce 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+	from { transform: translateY(0);     }
+	to   { transform: translateY(calc(100vh - 223px)); }
+}
